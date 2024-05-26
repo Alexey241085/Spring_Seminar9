@@ -1,0 +1,7 @@
+
+--CREATE TABLE tasks (
+--id NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--description VARCHAR(50) NOT NULL,
+--status VARCHAR (50) NOT NULL,
+--localDateTime DATATIME NOT NULL
+--);

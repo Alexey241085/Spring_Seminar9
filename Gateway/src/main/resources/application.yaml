@@ -1,0 +1,20 @@
+
+server:
+  port: 8765
+
+
+spring:
+  application:
+    name: Gateway
+  cloud:
+    gateway:
+      routes:
+        - id: example_hw5
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/api/**
+        - id: Seminar06
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/notes/**
+
